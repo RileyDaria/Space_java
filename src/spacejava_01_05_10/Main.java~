@@ -22,7 +22,11 @@ import java.util.Scanner;
 
 public class Main {
 // Lots of old C++ code left over in here...
-  System.out.println("hello!");
+System.out.println("hello!");
+    // http://java.about.com/od/workingwithobjects/a/accessormutator.htm
+    // http://download.oracle.com/javase/1.4.2/docs/guide/util/logging/overview.html
+    // http://www.abbeyworkshop.com/howto/java/readLine/index.html
+    // http://www.java2s.com/Code/Java/Data-Type/UseCharacterisDigittochecktheifacharisadigit.htm
     /**
      * @param args the command line arguments
      */ static final int POSITIVE_X_LIMIT=77;
@@ -43,11 +47,11 @@ public class Main {
        logger.addHandler(logFile);
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
        Random rand = new Random();      
-       final int PLANET_NAME_SIZE=9;
-        final int UNIVERSE_ARRAY_SIZE=9;
-        int moonCounter=0;
-        int number_of_planets=0;
-        int movePosition=0;
+//        final int PLANET_NAME_SIZE=9;
+//        final int UNIVERSE_ARRAY_SIZE=9;
+//        int moonCounter=0;
+//        int number_of_planets=0;
+//        int movePosition=0;
 
    Planet jupiter = new Planet(36,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.5,"Juptier",2000,6000,100,100,100,100,200,10,100);
    Planet earth = new Planet (12,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.0,"Earth",25000,10000,1000,1000,1000,1200,50,100,100);
