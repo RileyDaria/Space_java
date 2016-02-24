@@ -16,7 +16,7 @@ import java.util.logging.*;
 import java.util.Scanner;
 
 /**
- *added some  comments
+*
  * @author jeremy
  */
 
