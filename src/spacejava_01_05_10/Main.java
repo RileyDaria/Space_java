@@ -23,10 +23,6 @@ import java.util.Scanner;
 public class Main {
 // Lots of old C++ code left over in here...
 
-    // http://java.about.com/od/workingwithobjects/a/accessormutator.htm
-    // http://download.oracle.com/javase/1.4.2/docs/guide/util/logging/overview.html
-    // http://www.abbeyworkshop.com/howto/java/readLine/index.html
-    // http://www.java2s.com/Code/Java/Data-Type/UseCharacterisDigittochecktheifacharisadigit.htm
     /**
      * @param args the command line arguments
      */ static final int POSITIVE_X_LIMIT=77;
