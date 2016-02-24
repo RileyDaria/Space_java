@@ -148,15 +148,6 @@ public void Shop(Ship s)
 	  {
            System.out.println( "\t\t\t5. " + planetoidName + "will sell Iron for: " + ((ironQuantity/ironDesiredQuantity) * ironQuantity) + "\n");
 	  }
-	  /*System.out.println( "\n\t\t\t1. Buy Iron for: " + Iron.getBuyValue() + "\n";
-	  System.out.println( "\t\t\t2. Buy Sugar for: " + Sugar.getBuyValue() + "\n";
-	  System.out.println( "\t\t\t3. Buy Rice for: " + Rice.getBuyValue() + "\n";
-	  System.out.println( "\t\t\t4. Buy Fuel for: " + fuelPrice + "\n";
-	  System.out.println( "\t\t\t5. Sell Iron for: " + Iron.getSellValue() + "\n";
-	  System.out.println( "\t\t\t6. Sell Sugar for: " + Sugar.getSellValue() + "\n";
-	  System.out.println( "\t\t\t7. Sell Rice for: " + Rice.getSellValue() + "\n";
-	  System.out.println( "\t\t\tU. Buy Upgrades" + "\n";
-	  */
 	  System.out.println( "\t\t\tE. Exit " + planetoidName);
           InputStreamReader converter = new InputStreamReader(System.in);
           BufferedReader in = new BufferedReader(converter);
